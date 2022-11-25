@@ -17,24 +17,33 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       h3 {
-        font-size: 27px;
-        margin-bottom: 30px;
+        font-size: 1.8vw;
+        margin-bottom: 2vw;
+      }
+      span {
+        flex-wrap: wrap;
       }
       span,
       a {
         font-family: 'Poppins';
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 1.12vw;
+        margin-bottom: 0.75vw;
         display: flex;
         align-items: center;
 
         text-align: justify;
         max-width: 19vw;
         svg {
-          margin-right: 10px;
+          margin-right: 1vw;
+          font-size: 2vw;
           justify-content: space-between;
           max-width: 150px;
         }
+      }
+      #networks {
+        display: flex;
+        justify-content: space-between;
+        width: 11vw;
       }
       .card-link {
         img {
@@ -42,12 +51,12 @@ export const Container = styled.div`
           border-radius: 8px;
         }
         div {
-          margin-left: 4px;
+          margin-left: 1vw;
           display: flex;
           flex-direction: column;
           h3 {
             font-size: 1.5vw;
-            width: 117px;
+            width: 8vw;
             margin: 0;
             font-family: 'headline-gothic-atf';
           }

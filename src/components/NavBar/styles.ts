@@ -123,6 +123,23 @@ export const Container = styled.nav`
     }
     a:hover {
       color: #187fe7;
+      #count {
+        border: 1px solid #187fe7;
+        background: #187fe7;
+      }
+    }
+    #count {
+      transition-duration: 0.3s;
+
+      border: 1px solid red;
+      border-radius: 64px;
+      color: white;
+      position: relative;
+      padding: 1px 9px;
+      font-family: 'Poppins';
+      font-size: 1px;
+      left: -17px;
+      background: red;
     }
   }
 
